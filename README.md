@@ -1,16 +1,24 @@
-# alcool_ou_gasolina
+# Álcool ou Gasolina?
 
-A new Flutter project.
+Um aplicativo simples desenvolvido em Flutter que ajuda os usuários a decidir se é mais vantajoso abastecer com álcool ou gasolina com base nos preços informados.
 
-## Getting Started
+## Descrição
 
-This project is a starting point for a Flutter application.
+O usuário insere os preços do álcool e da gasolina, e o aplicativo calcula qual é a melhor opção. O resultado é exibido em uma nova tela, informando se o álcool ou a gasolina é a escolha mais vantajosa.
 
-A few resources to get you started if this is your first Flutter project:
+## Funcionalidades
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Entrada de Dados**: O usuário pode inserir os preços do álcool e da gasolina.
+- **Cálculo de Vantagem**: O aplicativo realiza o cálculo para determinar a opção mais vantajosa com base na regra: 
+  - O preço do álcool deve ser menor que 70% do preço da gasolina para ser considerado a melhor opção.
+- **Resultados Visuais**: O resultado é exibido em uma nova tela com uma mensagem clara e uma imagem correspondente.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Regras do Cálculo
+
+- Se o preço do álcool for menor que 70% do preço da gasolina, o álcool é mais vantajoso.
+- Caso contrário, a gasolina é mais vantajosa.
+
+## Tecnologias Utilizadas
+
+- **Flutter**: Para o desenvolvimento do aplicativo.
+- **Dart**: Linguagem de programação utilizada no Flutter.
